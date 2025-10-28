@@ -1,4 +1,4 @@
-# Integraci-n-y-Reporte-de-Actividad-Comercial
+# Integración-y-Reporte-de-Actividad-Comercial
 1. Integración y Reporte de Actividad Comercial
   1.1 Descripción del Proyecto
   Este repositorio contiene la solución a la prueba técnica para Ingeniero de Desarrollo CRM.
