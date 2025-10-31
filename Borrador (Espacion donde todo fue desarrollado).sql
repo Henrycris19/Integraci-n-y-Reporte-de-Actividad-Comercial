@@ -145,7 +145,7 @@ select * from ventas_etl_errores;
 ----consulta de productividad
 SELECT
     E.IdEjecutivo,
-    E.Nombre || ' ' || E.Apellido AS NombreEjecutivo, -- Usa || para concatenar en Oracle
+    E.Nombre || ' ' || E.Apellido AS NombreEjecutivo, 
     COUNT(DISTINCT V.IdVisita) AS TotalVisitas,
     SUM(VE.Monto) AS MontoTotalVentas,
     -- Calcular Promedio de Ventas por Cliente
@@ -226,3 +226,4 @@ LEFT JOIN (
 
 ORDER BY
     T_VENTAS.MontoTotalVentas DESC, T_VISITAS.TotalVisitas DESC;
+
